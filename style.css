@@ -34,8 +34,8 @@ h2 {
   color: #007bff;
   margin-bottom: 10px;
 }
-.profile-photo{
-    text-align: center;
+.profile-photo {
+  text-align: center;
 }
 .profile-photo img {
   width: 300px;
@@ -46,7 +46,7 @@ h2 {
   transition: transform 0.3s, background 0.3s;
 }
 .profile-photo img:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 #personal-info {
@@ -59,6 +59,18 @@ h2 {
 #personal-info .info {
   flex: 1;
   min-width: 300px;
+}
+
+#personal-info a {
+  color: #007bff; 
+  text-decoration: none; 
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+
+#personal-info a:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
 
 ul {
@@ -113,7 +125,6 @@ footer {
 
 /* Адаптивность */
 @media (max-width: 768px) {
-
   #personal-info {
     flex-direction: column;
   }
@@ -129,12 +140,12 @@ footer {
   }
 }
 @media (max-width: 380px) {
-    main{
-        margin: 20px auto;
-        padding: 20px;
-    }
-    .profile-photo img {
-      width: 200px;
-      height: 200px;
-    }
+  main {
+    margin: 20px auto;
+    padding: 20px;
   }
+  .profile-photo img {
+    width: 200px;
+    height: 200px;
+  }
+}
