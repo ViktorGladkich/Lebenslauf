@@ -51,7 +51,7 @@ h2 {
     border-radius: 50%;
     object-fit: cover;
     position: relative;
-    z-index: 1; /* Изображение выше градиента */
+    z-index: 1; 
     border: none;
   }
   
